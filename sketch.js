@@ -63,10 +63,10 @@ function setup() {
   breakButton.position(width - 200, height / 2 - 50);
   breakButton.class("breakbutton");
 
-  //breakButton.mouseClicked(handleButtonPress);
+  breakButton.mouseClicked(handleButtonPress);
   //breakButton.mousePressed(handleButtonPress);
   //breakButton.mouse(handleButtonPress);
-  breakButton.mousePressed(ButtonPress);
+  //breakButton.mousePressed(ButtonPress);
 
 
 }
